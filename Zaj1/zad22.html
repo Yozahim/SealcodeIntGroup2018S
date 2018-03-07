@@ -8,33 +8,38 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <fieldset>
-            <legend>Myform</legend>
-            <p>Imię: </p>
-            <input type="text" placeholder="Imię">
-            <p>Nazwisko: </p>
-            <input type="text" placeholder="Nazwisko">
-            <p>Email: </p>
-            <input type="text" placeholder="email">
-            <p>Płeć: </p>
-            <div class="abc">
+        <form action="kontakt.php" method="post">
+            <fieldset>
+                <legend>Myform</legend>
+                <p>Imię: </p>
+                <input type="text" placeholder="Imię">
+                <p>Nazwisko: </p>
+                <input type="text" placeholder="Nazwisko">
+                <p>Email: </p>
+                <input type="text" placeholder="email">
+                <p>Płeć: </p>
+                <div class="abc">
                 <input type="checkbox"><label>Kobieta </label>
-            </div>
+                </div>
             
-            <div class="abc">
+                <div class="abc">
                 <input type="checkbox"><label>Mężczyzna </label>
-            </div>
-            <p>Wiadomość: </p>
-            <textarea rows "30" cols="30">
-                </textarea>
-            <div>
-                <input type="checkbox"><label>Chcę się zapisać do newslettera </label>
-            </div>
-            <input type="submit" placeholder="Wyślij">
+                </div>
+                    <p>Data urodzenia: </p>
+                <input type="date">
+            
+                <p>Wiadomość: </p>
+                <textarea name="wiadomosc" rows "30" cols="30" placeholder="wpisz wiadomość" ></textarea>
+            
+                <div>
+                    <input type="checkbox"><label>Chcę się zapisać do newslettera </label>
+                </div>
+                <input type="submit" value="Wyślij">
                 
             
         
-        </fieldset>
+            </fieldset>
+        </form>
     </body>
 
 </html>
