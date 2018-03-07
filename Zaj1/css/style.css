@@ -1,0 +1,13 @@
+.center
+{
+    text-align: center;
+}
+.abc
+{
+    display: inline-block;
+}
+checkbox
+{
+    display: inline-block;
+    float: left;
+}
