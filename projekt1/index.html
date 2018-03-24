@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>zaj11</title>
+        <meta name="description" content="zajecia nr1">
+        <link rel="stylesheet" href="css/style.css">
+        <script>
+            function addTask() {
+                document.write(document.getElementById("exName").value);
+}       </script>
+        
+    </head>
+    <body>
+        <form action="kontakt.php" method="post">
+            <fieldset>
+                <legend>TO DO LIST</legend>
+                <b>Dodaj zadanie: </b> <input type="text" id="exName"> <button type="button" class="button" onclick="addTask()">Dodaj</button>
+                <div class="boxPlace">
+                    <p><input type="checkbox"><b>Praca domowa</b><button type="button" class="button">Usuń</button></p>
+                </div>
+                <div class="footer">
+                    <script> document.write(new Date().toLocaleDateString()); </script>
+                </div>
+                <div></div>
+                
+                
+            </fieldset>
+        </form>
+    </body>
+
+</html>
